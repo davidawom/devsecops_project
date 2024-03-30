@@ -20,7 +20,7 @@ jobs:
       - name: Pull Docker Image
         run: docker pull davidawom/dockerhub:myfirstimagepush
         
-        - name: Pull Docker Image
+      - name: Pull Docker Image
         run: docker pull davidawom/dockerhub:myfirstimagepush
       - name: Install Trivy
         run: |
